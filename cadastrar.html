@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro de Usuário</title>
+</head>
+
+<body>
+    <form method="POST" action="cadastrar.php">
+        <p>
+            <label for="nom">Nome* :</label>
+            <input type="text" name="nome" id="nom" required>
+        </p>
+        <p>
+            <label for="eml">Email :</label>
+            <input type="email" name="email" id="eml">
+        </p>
+        <p>
+            <label for="log"> Usuário* :</label>
+            <input type="text" name="usuario" id="log" required>
+        </p>
+        <p>
+            <label for="sen"> Senha* :</label>
+            <input type="password" name="senha" id="sen" required>
+        </p>
+        <input type="submit" value="Salvar"> <span>* preechimento obrigatório.</span>
+
+    </form>
+</body>
+
+</html>
